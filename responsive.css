@@ -136,7 +136,7 @@
     .background_start{
         position: absolute;
         top: 0;
-        width: 100%;
+        width: 110%;
         max-height: 100%;
     }
     .background_start img{
