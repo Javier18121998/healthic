@@ -522,8 +522,15 @@
         z-index: 0;
         left: 15%;
     }
+
     #toogle{
         width: 25%;
+    }
+    #toogle div h1{
+        font-size: 280%;
+    }
+    #toogle div p{
+        font-size: 154.5%;
     }
     .crap_toogle{
         margin: 0;
