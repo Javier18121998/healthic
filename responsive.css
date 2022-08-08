@@ -591,7 +591,8 @@
     }
     #bockparts{
         position: relative;
-        top: 890%;
+        top: 770%;
+        left: 5%;
         margin: 0;
         border: 2px solid #000008;
         border-top-left-radius: 7.5%;
@@ -637,7 +638,8 @@
     #blog{
         position: relative;
         margin: 0;
-        top: 410%;
+        top: 400%;
+        left: 5%;
         background-color: #faffff;
         display: grid;
         height: 270%;
