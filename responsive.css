@@ -138,9 +138,10 @@
         top: 0;
         width: 110%;
         max-height: 100%;
+        left: 5%;
     }
     .background_start img{
-        width: 130%;
+        width: 100%;
         height: 100%;
     }
     .fb img, .ig img, .yt img, .lnk img, .pn img{
