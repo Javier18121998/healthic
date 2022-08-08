@@ -307,6 +307,10 @@
         width: 120px;
         height: 120px;
     }
+    #text p{
+        font-size: 195%;
+        color: #000000;
+    }
     .buttonn{
         position: absolute;
         top: 89%;
@@ -344,7 +348,7 @@
         position: absolute;
         height: 100%;
         width: 175%;
-        top: 680%;
+        top: 670%;
         margin-bottom: 15px;
         border-top-left-radius: 15%;
     }
@@ -497,6 +501,7 @@
     #toogle{
         margin: 0;
     }
+
     .bar_toogle{
         position: absolute;
         top: 282%;
