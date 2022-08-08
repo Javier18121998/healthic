@@ -42,15 +42,6 @@
     .tille{
         position: relative;
     }
-    .text_site_container div h1{
-        color: #006478;
-        position: absolute;
-        top: 50%;
-        left: 10%;
-        height: 90%;
-        width: 90%;
-        font-size: 400%;
-    }
     .text_site_container{
         margin: 0;
         display: grid;
@@ -61,6 +52,15 @@
         background-color: #faffff;
         box-shadow: 0 9px 12px 12px rgba(0, 0, 0, 0.300);
         border: 1.5px solid #000009;
+    }
+    .text_site_container div h1{
+        color: #006478;
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        height: 90%;
+        width: 90%;
+        font-size: 400%;
     }
     .info_site{
         display: flex;
@@ -171,6 +171,7 @@
         width: 100%;
         max-height: 100%;
         top: 2.5%;
+        left: 5%;
     }
     .pic_site_container{
         margin: 0;
