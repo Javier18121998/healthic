@@ -2,7 +2,7 @@
     /*Header*/
     body{
         margin: 0;
-        background-color: #ffffff;
+        background-color: #fffffa;
         display: grid;
         max-width: 100%;
     }
@@ -806,6 +806,7 @@
     }
     #contacts{
         position: absolute;
+        background-color: #59bec9;
         top: 1700%;
         margin: 0;
         width: 100%;
@@ -813,10 +814,11 @@
     }
     .contact_page{
         position: absolute;
+        background-color: #59bec9;
         margin: 0;
         width: 100%;
         height: 100%;
-        left: 45%;
+        left: 5%;
     }
     .contact_content_page{
         position: absolute;
@@ -827,13 +829,14 @@
     }
     .map_content{
         position: absolute;
-        width: 100%;
+        width: 300%;
         height: 100%;
         top: 0;
     }
     .content_map{
         position: relative;
         margin: 0;
+        left: 15%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -844,6 +847,13 @@
         position: relative;
         width: 150%;
         height: 130%;
+    }
+    .contact_content{
+        position: absolute;
+        top:  120%;
+    }
+    .contact_name_mail_inputs{
+        display: flex;
     }
     .footer_content_page{
         position: relative;
