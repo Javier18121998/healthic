@@ -20,6 +20,7 @@
     <script src="app/jquery-3.6.0.min.js"></script>
 </head>
 <body>
+    <script src="app/responsive.js"></script>
     <div id="start">
         <div class="consultorio">
             <!--Aquí insertamos la imagen del consultorio-->
@@ -84,11 +85,17 @@
               <!--Aquí insertamos el contacto a whats-app-->
               <img src="ImageContainer\chatear.png" alt="" />
             </div>
-            <div class="hamburger_menu hamburger">
-                <span class="line1__bars-menu"></span>
-                <span class="line2__bars-menu"></span>
-                <span class="line3__bars-menu"></span>
+            <div class="hamburger_menu hamburger is-active">
+                <div class="bar"></div>
             </div>
+            <nav class="mobile-nav">
+                <a href="#start">Inicio</a>
+                <a href="#ours">Nosotros</a>
+                <a href="#services">Servicios</a>
+                <a href="#campanas">Campañas</a>
+                <a href="#blog">Blog</a>
+                <a href="#contacts">Contactos</a>
+            </nav>
         </div>
         <div class="content">
             <div class="text_site_container">
