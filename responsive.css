@@ -904,7 +904,6 @@
         position: relative;
         top: 1690%;
         margin: 0;
-        
     }
     .footer_nosotros_lista,
     .footer_nosotros_lista img,
@@ -916,5 +915,5 @@
     .footer_iconos_listaS img{
         height: 0;
         width: 0;
-    },
+    }
 }
