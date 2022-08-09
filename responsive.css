@@ -1036,8 +1036,8 @@
     }        
     .back_to,
     .back_to img{
-        width: 206px;
-        height: 206px;
+        width: 224px;
+        height: 220px;
         border-radius: 50%;
     }
     .to_visible{
