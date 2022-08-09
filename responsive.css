@@ -938,9 +938,60 @@
     .footer_logo_description p{
         font-size: 190%;
     }
+    .footer_contactos{
+        position: relative;
+        left: 10%;
+    }
     .footer_title_contactos img{
         height: 100%;
         width: 100%;
+    }
+    .footer_ubication,
+    .footer_call,
+    .footer_mail{
+        position: relative;
+        right: 20%;
+    }
+    .footer_ubication img{
+        width: 270%;
+        height: 60%;
+    }
+    .footer_ubication_text p{
+        font-size: 132.5%;
+    }
+    .footer_call img{
+        width: 265%;
+        height: 100%;
+    }
+    .footer_phone{
+        position: relative;
+        margin-top: 5%;
+    }
+    .footer_phone img{
+        width: 155%;
+        height: 75%;
+    }
+    .footer_mail img{
+        position: relative;
+        width: 260%;
+        height: 80%;
+        margin-top: 65%;
+    }
+    .footer_mail_text{
+        position: relative;
+    }
+    .footer_mail_text img{
+        height: 70%;
+        width: 195%;
+        margin-top: 10%;
+    }
+    .footer_ubication_text{
+        position: relative;
+        left: 5%;
+    }
+    .footer_ubication_text img{
+        width: 115%;
+        height: 50%;
     }
     .footer_separator{
         position: relative;
@@ -956,7 +1007,7 @@
         width: 60%;
     }
     .footer_type_info div p{
-        font-size: 195%;
+        font-size: 205%;
         color: #ffffff;
     }
     .footer_sotial_media{
@@ -965,11 +1016,11 @@
         justify-content: space-around;
     }
     .footer_img img{
-        height: 200%;
-        width: 200%;
+        height: 225%;
+        width: 225%;
     }
     .footer_background{
-        height: 140%;
+        height: 155%;
     }
     .footer_background img{
         height: 100%;
