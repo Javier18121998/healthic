@@ -950,7 +950,7 @@
         position: relative;
         top: 20%;
         margin-left: 5%;
-        margin-top: 1%;
+        margin-top: 3%;
     }
     .footer_type_info{
         width: 60%;
@@ -969,7 +969,7 @@
         width: 200%;
     }
     .footer_background{
-        height: 130%;
+        height: 140%;
     }
     .footer_background img{
         height: 100%;
