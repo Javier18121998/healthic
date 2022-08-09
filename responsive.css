@@ -851,14 +851,70 @@
     .contact_content{
         position: absolute;
         top:  120%;
+        left: 50%;
+    }
+    .contact_title img{
+        height: 100%;
+        width: 100%;
     }
     .contact_name_mail_inputs{
         display: flex;
     }
+    #pots
+    {
+        width: 100%;
+        height: 100%;
+    }
+    .seter_images div img{
+        width: 500%;
+        height: 100%;
+    }
+    .seprtr{
+        margin-left: 17.5%;
+    }
+    #input{
+        width: 455.02px;
+        height: 92px;
+    }
+    .contact_text_area textarea{
+        width: 156%;
+        height: 200%;
+    }
+    .boton_enviar{
+        position: absolute;
+        top: 130%;
+        height: 100%;
+        width: 100%;
+    }
+    .boton{
+        height: 15%;
+        width: 65%;
+        border: solid #59BEC9 2px;
+        background-color: #59BEC9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15.5689px;
+        box-shadow: 0 8px 32px 0 rgb(0 0 0 / 22%);
+    }
+    .boton a{
+        font-size: 300%;
+    }
     .footer_content_page{
         position: relative;
-        top: 1600%;
+        top: 1690%;
         margin: 0;
         
-    }    
+    }
+    .footer_nosotros_lista,
+    .footer_nosotros_lista img,
+    .footer_iconos_listaN,
+    .footer_iconos_listaN img,    
+    .footer_servicios_lista,
+    .footer_servicios_lista img,
+    .footer_iconos_listaS,
+    .footer_iconos_listaS img{
+        height: 0;
+        width: 0;
+    },
 }
