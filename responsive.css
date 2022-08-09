@@ -912,8 +912,66 @@
     .footer_servicios_lista,
     .footer_servicios_lista img,
     .footer_iconos_listaS,
-    .footer_iconos_listaS img{
+    .footer_iconos_listaS img,
+    .footer_title_nosotros img,
+    .footer_nosotros,
+    .footer_servicios, 
+    .footer_title_servicios,
+    .footer_title_servicios img{
         height: 0;
         width: 0;
+    }
+    .footer_info_content{
+        margin-top: 5%;
+    }
+    .footer_logo{
+        height: 40%;
+        width: 100%;
+    }
+    .footer_logo img{
+        height: 90%;
+    }
+    .footer_logo_description{
+        height: 60%;
+        width: 100%;
+    }
+    .footer_logo_description p{
+        font-size: 190%;
+    }
+    .footer_title_contactos img{
+        height: 100%;
+        width: 100%;
+    }
+    .footer_separator{
+        position: relative;
+        top: 25%;
+    }
+    .footer_contact{
+        position: relative;
+        top: 20%;
+        margin-left: 5%;
+        margin-top: 1%;
+    }
+    .footer_type_info{
+        width: 60%;
+    }
+    .footer_type_info div p{
+        font-size: 195%;
+        color: #ffffff;
+    }
+    .footer_sotial_media{
+        width: 40%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .footer_img img{
+        height: 200%;
+        width: 200%;
+    }
+    .footer_background{
+        height: 130%;
+    }
+    .footer_background img{
+        height: 100%;
     }
 }
