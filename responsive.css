@@ -953,29 +953,33 @@
         right: 20%;
     }
     .footer_ubication img{
-        width: 270%;
-        height: 60%;
+        width: 500%;
+        height: 50%;
     }
     .footer_ubication_text p{
-        font-size: 132.5%;
+        font-size: 135%;
     }
     .footer_call img{
+        position: relative;
         width: 265%;
         height: 100%;
+        top: 50%;
     }
     .footer_phone{
         position: relative;
-        margin-top: 5%;
+        margin-top: 20%;
     }
     .footer_phone img{
+        position: relative;
         width: 155%;
-        height: 75%;
+        height: 105%;
+        top: 50%;
     }
     .footer_mail img{
         position: relative;
         width: 260%;
         height: 80%;
-        margin-top: 65%;
+        top: 75%;
     }
     .footer_mail_text{
         position: relative;
@@ -983,23 +987,23 @@
     .footer_mail_text img{
         height: 70%;
         width: 195%;
-        margin-top: 10%;
+        margin-top: 45%;
     }
     .footer_ubication_text{
         position: relative;
         left: 5%;
     }
     .footer_ubication_text img{
-        width: 115%;
-        height: 50%;
+        width: 105%;
+        height: 35%;
     }
     .footer_separator{
         position: relative;
-        top: 25%;
+        top: 15%;
     }
     .footer_contact{
         position: relative;
-        top: 20%;
+        top: 7.5%;
         margin-left: 5%;
         margin-top: 3%;
     }
