@@ -329,8 +329,8 @@
         color: #006478;
         font-size: 325%;
     }
-    .regresar, .back_to,
-    .regresar img, .back_to img
+    .regresar, 
+    .regresar img 
     {
         z-index: 0;
         position: absolute;
@@ -1022,6 +1022,32 @@
     .footer_img img{
         height: 225%;
         width: 225%;
+    }    
+    .back_to{
+        position: fixed;
+        bottom: 18px;
+        right: 18px;
+        opacity: 1;
+        cursor: pointer;
+        transform: translateX(0);
+        transition: all 0.5s;
+        z-index: 6;
+        box-shadow: 1px 11px 32px 0 rgba(0, 0, 0, 0.31);
+    }        
+    .back_to,
+    .back_to img{
+        width: 206px;
+        height: 206px;
+        border-radius: 50%;
+    }
+    .to_visible{
+        opacity: 1;
+        transform:unset;
+    }
+    #whatsapp {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .footer_background{
         height: 155%;
