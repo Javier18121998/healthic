@@ -57,7 +57,23 @@ const go_start = function(){
 const pushbutton = function(){
     const toggle =document.querySelector('.toggle');
     const menu = document.querySelector('.menu');
+    const facebook = document.querySelector('.facebook');
+    const instagram = document.querySelector('.instagram');
+    const linkedin = document.querySelector('.linkedin');
+    const youtube = document.querySelector('.youtube');
     toggle.addEventListener('click', function(){
         menu.classList.toggle('active');
+    });
+    facebook.addEventListener('click', function(){
+        location.href="https://www.facebook.com";
+    });
+    instagram.addEventListener('click', function(){
+        location.href="https://www.instagram.com";
+    });
+    linkedin.addEventListener('click', function(){
+        location.href="https://www.linkedin.com/";
+    });
+    youtube.addEventListener('click', function(){
+        location.href="https://www.youtube.com/"
     });
 }
