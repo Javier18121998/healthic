@@ -1,6 +1,7 @@
 window.onload = function(){
     push_a_service();
     nav_responsive();
+    go_start();
 }
 const nav_responsive = function(){
     const menu_btn = document.querySelector('.hamburger');
@@ -42,5 +43,13 @@ const push_a_service = function(){
     pushing5.addEventListener('click', function(){
         pages_container.classList.toggle('is-active');
         menu_btn.classList.toggle('is-active');
+    });
+}
+const go_start = function(){
+    const start = document.getElementById('logo-header');
+    start.addEventListener('click', function(){
+        if (window.scrollY) {
+            window.scroll(0, 0);
+        }
     });
 }
