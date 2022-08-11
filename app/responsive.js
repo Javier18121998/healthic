@@ -1,7 +1,8 @@
 window.onload = function(){
+    go_start();
+    pushbutton();
     push_a_service();
     nav_responsive();
-    go_start();
 }
 const nav_responsive = function(){
     const menu_btn = document.querySelector('.hamburger');
@@ -51,5 +52,12 @@ const go_start = function(){
         if (window.scrollY) {
             window.scroll(0, 0);
         }
+    });
+}
+const pushbutton = function(){
+    const toggle =document.querySelector('.toggle');
+    const menu = document.querySelector('.menu');
+    toggle.addEventListener('click', function(){
+        menu.classList.toggle('active');
     });
 }
