@@ -983,12 +983,14 @@ h4{
     opacity: 1;
     transform: translateX(0);
 }
-.menu,
-.menu div,
-.menu div li,
-.menu div li a,
-.toggle{
-    width: 0px;
-    height: 0px;
-    z-index: 0;
+@media (min-width: 720px){
+    .menu,
+    .menu div,
+    .menu div li,
+    .menu div li a,
+    .toggle{
+        width: 0px;
+        height: 0px;
+        z-index: 0;
+    }
 }
