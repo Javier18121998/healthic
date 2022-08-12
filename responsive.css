@@ -1204,7 +1204,7 @@
         transform:  translateY(210px);
     }
     .menu.active li{
-        transform: translateY(calc(-1510px / 6 * var(--i)));
+        transform: translateY(calc(-1350px / 6 * var(--i)));
     }
     .menu li a{
         width: 185px;
@@ -1219,7 +1219,7 @@
         transition: 0.5s;
     }
     .menu.active .toggle{
-        transform: rotate(315deg);
+        transform: rotate(135deg);
     }
     ion-icon{
         font-size: 6.125em;
