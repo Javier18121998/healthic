@@ -72,7 +72,7 @@
         position: absolute;
         top: 65%;
         left: 10%;
-        font-size: 333%;
+        font-size: 335%;
         margin: 0;
         color: #000000;
         font-weight: bold;
@@ -278,9 +278,6 @@
     #ours,
     #bockparts, #blog, #contacts{
         margin: 15px 0 15px 0;
-        background-color: #ffffff;
-    }
-    .contact_page{
         background-color: #ffffff;
     }
     #bockparts{
@@ -898,7 +895,7 @@
     }
     #contacts{
         position: absolute;
-        background-color: #59bec9;
+        background-color: #ffffff;
         top: 1700%;
         margin: 0;
         width: 100%;
@@ -906,7 +903,7 @@
     }
     .contact_page{
         position: absolute;
-        background-color: #59bec9;
+        background-color: #ffffff;
         margin: 0;
         width: 100%;
         height: 100%;
@@ -967,6 +964,14 @@
     #input{
         width: 455.02px;
         height: 92px;
+    }
+    ::placeholder {
+        color: blue;
+        font-size: 2.75em;
+        font-style: italic;
+    }
+    .borders img{
+        width: 37.5%;
     }
     .contact_text_area textarea{
         width: 156%;
