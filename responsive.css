@@ -1198,7 +1198,7 @@
         list-style: none;
         transform-origin: 100px;
         bottom: 0;
-        left: 0;
+        left: 3px;
         transition: 0.5s;
         transition-delay: calc(0.01s*var(--i));
         transform:  translateY(210px);
