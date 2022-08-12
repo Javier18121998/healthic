@@ -393,8 +393,15 @@
         width: 140%;
     }
     .doce, .trece, .catorce, .quince{
-        width: 120px;
-        height: 120px;
+        width: 122px;
+        height: 122px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .trece img, .catorce img, .quince img{
+        width: 100%;
+        height: 100%;
     }
     #text p{
         font-size: 195%;
