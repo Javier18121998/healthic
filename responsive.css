@@ -1,4 +1,4 @@
-@media(max-width: 720px){
+@media only screen and (max-width: 720px){
     /*Header*/
     body{
         margin: 0;
@@ -440,11 +440,11 @@
         color: #ffffff;
     }
     #services{
+        position: static;
         margin: 0;
-        position: absolute;
         height: 100%;
-        width: 175%;
-        top: 670%;
+        width: 100%;
+        margin-top: 1450px;
         margin-bottom: 15px;
         border-top-left-radius: 15%;
     }
@@ -592,7 +592,7 @@
     }
     .enfer1,
     .enfer1 img{
-        position: absolute;
+        position: static;
         margin: 0;
         left: 2.5%;
         top: 5%;
@@ -734,11 +734,11 @@
     #blog{
         position: relative;
         margin: 0;
-        top: 400%;
+        top: 150%;
         left: 5%;
         background-color: #faffff;
         display: grid;
-        height: 270%;
+        height: 200%;
         width: 100%;
         border: 1px solid #000009;
         border-top-left-radius: 5%;
@@ -760,7 +760,7 @@
         width: 60%;
         height: 70%;
         top: 17.5%;
-        left: 20%;
+        left: 30%;
     }
     .containt_page_news{
         position: relative;
@@ -769,11 +769,13 @@
         height: 70%;
         display: flex;
         flex-direction: column;
+        justify-content: start;
+        align-items: stretch;
     }
     .containt_topp_news{    
         position: relative;
         max-width: 100%;
-        height: 100%;
+        height: 20%;
         background-color:#f7efef;
         box-shadow: none;
     }
@@ -793,7 +795,7 @@
     .self_top_news{
         position: relative;
         top:  17%;
-        width: 25%;
+        width: 95%;
         border: 1px solid #000000;
         border-radius: 12%;
         box-shadow: 2px 0   rgba(0, 0, 0, 0.300);
@@ -812,7 +814,7 @@
         position: absolute;
         height: 48%;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
     }
     .date_self{
         top: 40%;
@@ -823,17 +825,24 @@
         top: 15%;
         margin: 0;
         height: 40%;
-        width: 40%;
+        width: 100%;
     }
     #date h6{
-        font-size: xx-large;
+        font-size: 300%;
+        position: absolute;
+        top: 55%;
+        left: 150%;
+        margin: 0;
+        width: 470%;
     }
     .date_notice{
         position: relative;
         display: flex;
-        flex-direction: column;
-        left: 10%;
-        top: 105%;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        left: 5%;
+        top: 170%;
     }
     .date_notice img{
         position: relative;
@@ -853,20 +862,27 @@
         height: 100%;
     }
     .in_view_notice img{
-        width: 65%;
+        position: relative;
+        margin-bottom: 505px;        
+        width: 125%;
+    }
+    .fst_image_notice{
+        margin-bottom: 1350px;
+        margin-top: 100px;
     }
     .in_view_notice h3{
         position: absolute;
-        width: 50%;
-        left: 70%;
-        font-size: 255%;
+        width: 110%;
+        left: 5%;
+        top: 205%;
+        font-size: 455%;
     }
     .in_view_notice p{
         position: absolute;
-        width: 55%;
-        left: 45%;
-        top: 105%;
-        font-size: 190%;
+        width: 105%;
+        left: 5%;
+        top: 275%;
+        font-size: 350%;
     }
     .bottn{
         position: absolute;
@@ -893,17 +909,21 @@
         color: #006478;
         font-size: 210%;
     }
+    #leer_boton{
+        position: absolute;
+        left: 5%;
+        top: 365%;
+        width: 100%;
+    }
     #leer_boton a{
         position: absolute;
-        top: 75%;
-        left: 70%;
         font-size: 230%;
         color: #5caed7;
     }
     #contacts{
         position: absolute;
         background-color: #ffffff;
-        top: 1700%;
+        top: 2150%;
         margin: 0;
         width: 100%;
         height: 100%;
@@ -1006,7 +1026,7 @@
     }
     .footer_content_page{
         position: relative;
-        top: 1690%;
+        top: 3500%;
         margin: 0;
     }
     .footer_nosotros_lista,
