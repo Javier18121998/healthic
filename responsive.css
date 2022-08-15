@@ -39,9 +39,7 @@
         grid-template-columns: 2fr 0 0 1fr;
         background-color: #ffffff;
     }
-    .tille{
-        position: relative;
-    }
+    .tille{ position: relative; }
     .text_site_container{
         margin: 0;
         display: grid;
@@ -62,12 +60,7 @@
         width: 90%;
         font-size: 400%;
     }
-    .info_site{
-        display: flex;
-        justify-content: center;
-        align-items:flex-start;
-        margin : 0;
-    }
+    .info_site{ display: flex; justify-content: center; align-items:flex-start; margin : 0; }
     .text_site_container div p{
         position: absolute;
         top: 65%;
@@ -91,44 +84,18 @@
         height: 22.5%;
         right: 50%;
     }
-    .text_site_container div button a{
-        color: #006478;
-        font-size: 315%;
-    }
-    .clop_content, .info_site, .title{
-        height: 100%;
-    }
-    .clop_content{
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        position: relative;
-        width: 100%;
-    }
+    .text_site_container div button a{ color: #006478; font-size: 315%; }
+    .clop_content, .info_site, .title{ height: 100%; }
+    .clop_content{ display: flex; justify-content: flex-end; align-items: center; position: relative; width: 100%; }
     .contact_container,
     .sotial_container,
     .pages_container,
     .sotial_media_content, .fb, .ig, .yt, .lnl, .pn,    
     .chatear,
-    .chatear img{
-        z-index: 0;
-        position: relative;
-        width: 0;
-        height: 0;
-    }
-    .logo_class{
-        z-index: 1;
-    }
-    .logo_class{
-        height: 250px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .logo_class img{
-        height: 55.5%;
-        width: 67.5%;
-    }
+    .chatear img{ z-index: 0; position: relative; width: 0;height: 0; }
+    .logo_class{ z-index: 1; }
+    .logo_class{ height: 250px; display: flex; justify-content: center; align-items: center; }
+    .logo_class img{ height: 55.5%; width: 67.5%; }
     .hamburger{
         height: 250px;
         z-index: 1;
@@ -199,11 +166,7 @@
         padding-top: 120px;
         transition: 0.4s;
     }
-
-    .mobile-nav.is-active {
-        left: 0;
-    }
-
+    .mobile-nav.is-active { left: 0; }
     .mobile-nav a {
         display: block;
         z-index: 98;
@@ -219,41 +182,15 @@
         text-decoration: none;
         font-size: 305%;
     }
-
-    .mobile-nav a:hover {
-        background-color: #f5f5f5;
-    }
-
-
-    .background_start{
-        position: absolute;
-        top: 0;
-        width: 110%;
-        max-height: 100%;
-    }
-    .background_start img{
-        width: 110%;
-        height: 100%;
-    }
-    .fb img, .ig img, .yt img, .lnk img, .pn img{
-        max-width: 0;
-        max-height: 0;
-        box-shadow: none;
-    }
+    .mobile-nav a:hover { background-color: #f5f5f5; }
+    .background_start{ position: absolute; top: 0; width: 110%; max-height: 100%; }
+    .background_start img{ width: 110%; height: 100%; }
+    .fb img, .ig img, .yt img, .lnk img, .pn img{ max-width: 0; max-height: 0; box-shadow: none; }
     .pages_container div a,
     .pages_container div,
-    .desplazar{
-        z-index: 0;
-        width: 0;
-        height: 0;
-    }
-    .pages_container{
-        display: grid;
-        grid-template-columns: repeat(0, 0fr);
-    }
-    .pages_container div a{
-       color: #ffffff; 
-    }
+    .desplazar{ z-index: 0; width: 0; height: 0; }
+    .pages_container{ display: grid; grid-template-columns: repeat(0, 0fr); }
+    .pages_container div a{ color: #ffffff; }
     .content{
         display: flex;
         flex-direction: column-reverse;
@@ -265,26 +202,10 @@
         top: 2.5%;
         left: 5%;
     }
-    .pic_site_container{
-        margin: 0;
-        right: 10%;
-    }
-    .pic_site_container div img{
-        position: relative;
-        left: 35%;
-        width: 120;
-        height: 120%;
-    }
+    .pic_site_container{ margin: 0; right: 10%; }
+    .pic_site_container div img{ position: relative; left: 35%; width: 120; height: 120%; }
     #ours,
-    #bockparts, #blog, #contacts{
-        margin: 15px 0 15px 0;
-        background-color: #ffffff;
-    }
-    #bockparts{
-        border-top-right-radius: 10%;
-        border-bottom-right-radius: 10%;
-        margin-bottom: 50px;
-    }
+    #bockparts, #blog{ margin: 15px 0 15px 0; background-color: #ffffff; }
     #ours{
         position: relative;
         width: 100%;
@@ -292,7 +213,6 @@
         margin-top:150px;
         left: 5%;
         border-top-right-radius: 5%;   
-        border-top-left-radius: 12.5%;   
         border-bottom-right-radius: 12.5%;   
         border-bottom-left-radius: 5%;
         background-color: #faffff #fbffff #faffff;
@@ -307,13 +227,7 @@
         border-bottom-right-radius: 12.5%;   
         border-bottom-left-radius: 5%;
     }
-    .page_name{
-        display: flex;
-        align-items: center;
-        right: 20%;
-        height: 15%;
-        width: 100%;
-    }
+    .page_name{ display: flex; align-items: center; right: 20%;height: 15%; width: 100%; }
     .page_name p{
         position: relative;
         left: 75%;
@@ -336,24 +250,9 @@
         margin: 0;
         height: 110%;
     }
-    .title{
-        position: absolute;
-        left: 95%;
-        height: 100%;
-        width: 100%;
-        margin: 0;
-    }
-    .title h1{
-        position: absolute;
-        color: #006478;
-        font-size: 510%;
-        top: 50%;
-    }
-    .context_content{
-        margin: 0;
-        position: relative;
-        right: 45%;
-    }
+    .title{ position: absolute; left: 95%; height: 100%; width: 100%; margin: 0; }
+    .title h1{ position: absolute; color: #006478; font-size: 510%; top: 50%; }
+    .context_content{ margin: 0; position: relative; right: 45%; }
     .info{
         position: relative;
         top: 62.5%;
@@ -368,16 +267,8 @@
         height: 45%;
         width: 150%;
     }
-    .title_carousel{
-        position: absolute;
-        top: 0;
-        left: 100%;
-    }
-    .title_carousel p{
-        margin: 0;
-        color: #006478;
-        font-size: 350%;
-    }
+    .title_carousel{ position: absolute; top: 0; left: 100%; }
+    .title_carousel p{ margin: 0; color: #006478;font-size: 350%; }
     .list_content{
         position: absolute;
         display: grid;
@@ -399,21 +290,9 @@
         justify-content: center;
         align-items: center;
     }
-    .trece img, .catorce img, .quince img{
-        width: 100%;
-        height: 100%;
-    }
-    #text p{
-        font-size: 195%;
-        color: #000000;
-    }
-    .buttonn{
-        position: absolute;
-        top: 89%;
-        height: 8%;
-        width: 50%;
-        left: 105%;
-    }
+    .trece img, .catorce img, .quince img{ width: 100%; height: 100%; }
+    #text p{ font-size: 195%; color: #000000; }
+    .buttonn{ position: absolute; top: 89%; height: 8%; width: 50%; left: 105%; }
     .buttonn button{
         background-color: #ffffff;
         border: 1px solid #000000;
@@ -421,19 +300,13 @@
         width: 100%;
         border-radius: 30%;
     }
-    .buttonn button a{
-        color: #006478;
-        font-size: 325%;
-    }
+    .buttonn button a{ color: #006478; font-size: 325%; }
     .regresar, 
-    .regresar img 
-    { z-index: 0; position: absolute; height: 0; width: 0; }
+    .regresar img { z-index: 0; position: absolute; height: 0; width: 0; }
     .fst_container div p,
     .snd_container div p,
     .trd_container div p,
-    .frt_container div p{
-        color: #ffffff;
-    }
+    .frt_container div p{ color: #ffffff; }
     #services{
         position: static;
         margin-left: 5%;
@@ -483,14 +356,8 @@
     }
     .title_name_toogle h1{ font-size: 90px; }
     .content_site_toogle{ position: static; width: 100%; height: 110%; }
-    .down_image_back{
-        position: relative;
-        width: 100%;
-        height: 55%;
-        z-index: 2;
-    }
-    .down_image_back img{ height: 100%; width: 100%;
-    }
+    .down_image_back{ position: relative; width: 100%; height: 55%; z-index: 2; }
+    .down_image_back img{ height: 100%; width: 100%; }
     .text_site_toogle{ height: 1500px; width: 100%; }
     .text_container_toogle{
         height: 1500px;
@@ -507,12 +374,7 @@
         width: 100%;
         height: 135px;
     }
-    .head_buttons div{
-        height: 135px;
-        width: 30%;
-        margin: 0;
-        border-radius: 15%;
-    }
+    .head_buttons div{ height: 135px; width: 30%; margin: 0; border-radius: 15%; }
     .head_buttons div a{ font-size: 50px; }
     .problematica{
         position: static;
@@ -522,11 +384,7 @@
         height: 50px;
         width: 100%;
     }
-    .text_container_toogle div p{
-        margin: 0 0 0 500px;
-        font-size: 57.5px;
-        color: #000009;
-    }
+    .text_container_toogle div p{ margin: 0 0 0 500px; font-size: 57.5px; color: #000009; }
     .text_toogle{
         height: 700px;
         position: relative;
@@ -636,356 +494,43 @@
     .do{ width: 18%; height: 85%; }
     .tre{ width: 27.5%; height: 65%; }
     .down_image_back,
-    .down_image_back img{
-        border-bottom-left-radius: 10%;
-        border-bottom-right-radius: 10%;
-    }
+    .down_image_back img{ border-bottom-left-radius: 10%; border-bottom-right-radius: 10%; }
     .content_site_toogle,
     .down_image_back,
-    .down_image_back img{
-        margin: 0;
-    }
+    .down_image_back img{ margin: 0; }
     #bockparts{
         position: static;
         margin: 650px 0 0 5%;
         border: 2px solid #000008;
-        border-top-left-radius: 7.5%;
-        border-bottom-right-radius: 7.5%;
         border-bottom-left-radius: 10%;
         box-shadow: 0 1px 6px 8px #2e2e2e58 ;
-        height: 550px;
+        height: 1150px;
         width: 1265px;
     }
     #campanas{
         background-color: #f7efef;
         border: 2px solid #000008;
         margin: 0;
-        border-top-left-radius: 4.5%;
-        border-bottom-right-radius: 7.5%;
-        border-bottom-left-radius: 10%;
-        height: 200%;
+        height: 1150px;
         width: 100%;
         display: flex;
         flex-direction: column;
         box-shadow: 0 1px 6px 8px #2e2e2e58 ;
     }
-    .title_bookpart{
-        width: 100;
-        height: 25%;
-    }
-    #campanas div h1{
-        position: static;
-        font-size: 150px;
-        margin: 0;
-    }
-    .carrousel{
-        width: 100%;
-        height: 75%;
-        margin: 0;
-    }
-    #continue, #reverse{
-        border: 1px solid #000000;
-        border-radius: 50%;
-        height: 8.5%;
-        width: 130%;
-        box-shadow: 0 1px 4px 4px #2e2e2e58 ;
-    }
+    .title_bookpart{ width: 100; height: 25%; }
+    #campanas div h1{ position: static; font-size: 150px; margin: 0; }
+    .carrousel{ width: 100%; height: 75%; margin: 0; }
+    #continue, #reverse{ border: 1px solid #000000; border-radius: 50%; height: 8.5%; width: 130%; box-shadow: 0 1px 4px 4px #2e2e2e58; }
     #blog{
         position: static;
-        margin: 645px 0 0 5%;
+        margin: 60px 0 0 5%;
         background-color: #faffff;
         display: grid;
-        height: 200%;
         width: 100%;
         border: 1px solid #000009;
-        border-top-left-radius: 5%;
     }
-    .news{
-        
-        position: relative;
-        width: 100%;
-        margin: 0;
-        height: 100%;
-    }
-    .title_page_news{
-        position: relative;
-        width: 100%;
-        height: 10%;
-    }
-    .title_page_news img{
-        position: absolute;
-        width: 60%;
-        height: 70%;
-        top: 17.5%;
-        left: 30%;
-    }
-    .containt_page_news{
-        position: relative;
-        margin: 0;
-        width: 100%;
-        height: 70%;
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        align-items: stretch;
-    }
-    .containt_topp_news{    
-        position: relative;
-        max-width: 100%;
-        height: 20%;
-        background-color:#f7efef;
-        box-shadow: none;
-    }
-    #notice{
-        position: static;
-        max-width: 80%;
-        height: 100%;
-    }
-    .top_news{
-        position: relative;
-        max-width: 100%;
-        max-height: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    .self_top_news{
-        position: relative;
-        top:  17%;
-        width: 95%;
-        border: 1px solid #000000;
-        border-radius: 12%;
-        box-shadow: 2px 0   rgba(0, 0, 0, 0.300);
-        background-color: #ffffff;
-    }
-    .self_top_news h4{
-        position: relative;
-        margin: 0;
-        width: 85%;
-        height: 80%;
-        font-size: 170%;
-        top: 4%;
-        left: 10%;
-    }
-    #date{
-        position: absolute;
-        height: 48%;
-        display: flex;
-        flex-direction: row;
-    }
-    .date_self{
-        top: 40%;
-        left: 12.5%;
-    }
-    #date img{
-        position: relative;
-        top: 15%;
-        margin: 0;
-        height: 40%;
-        width: 100%;
-    }
-    #date h6{
-        font-size: 300%;
-        position: absolute;
-        top: 55%;
-        left: 150%;
-        margin: 0;
-        width: 470%;
-    }
-    .date_notice{
-        position: relative;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        left: 5%;
-        top: 170%;
-    }
-    .date_notice img{
-        position: relative;
-        top: 15%;
-        margin: 0;
-        height: 40%;
-        width: 40%;
-    }
-    #e_notice{
-        max-width: 100%;
-        height: 100%;
-        margin: 0;
-    }
-    .in_view_notice{
-        display: grid;
-        max-width: 80%;
-        height: 100%;
-    }
-    .in_view_notice img{
-        position: relative;
-        margin-bottom: 505px;        
-        width: 125%;
-    }
-    .fst_image_notice{
-        margin-bottom: 1350px;
-        margin-top: 100px;
-    }
-    .in_view_notice h3{
-        position: absolute;
-        width: 110%;
-        left: 5%;
-        top: 205%;
-        font-size: 455%;
-    }
-    .in_view_notice p{
-        position: absolute;
-        width: 105%;
-        left: 5%;
-        top: 275%;
-        font-size: 350%;
-    }
-    .bottn{
-        position: absolute;
-        top: 90%;
-        width: 100%;
-        height: 5%;
-        margin: 0;
-    }
-    .botonn{
-        border: 1px solid #59bec9;
-        background: linear-gradient(135deg, rgba(255, 255, 255, 0.851), rgb(255, 255, 255));
-        border-radius: 8.5%;
-        cursor: pointer;
-        -webkit-backdrop-filter: blur(20px);
-        backdrop-filter: blur(20px);
-        box-shadow: 0 8px 32px 0 rgb(0 0 0 / 14%);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-        width: 27.5%;
-    }
-    .botonn a{
-        color: #006478;
-        font-size: 210%;
-    }
-    #leer_boton{
-        position: absolute;
-        left: 5%;
-        top: 365%;
-        width: 100%;
-    }
-    #leer_boton a{
-        position: absolute;
-        font-size: 230%;
-        color: #5caed7;
-    }
-    #contacts{
-        position: static;
-        background-color: #ffffff;
-        margin-top: 7000px;
-        margin: 0;
-        width: 100%;
-        height: 100%;
-    }
-    .contact_page{
-        position: static;
-        background-color: #ffffff;
-        margin: 0;
-        width: 100%;
-        height: 100%;
-        left: 5%;
-    }
-    .contact_content_page{
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .map_content{
-        position: absolute;
-        width: 300%;
-        height: 100%;
-        top: 0;
-    }
-    .content_map{
-        position: relative;
-        margin: 0;
-        left: 15%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-        width: 100%;
-    }
-    .content_map iframe{
-        position: relative;
-        width: 150%;
-        height: 130%;
-    }
-    .contact_content{
-        position: absolute;
-        top:  120%;
-        left: 50%;
-    }
-    .contact_title img{
-        height: 100%;
-        width: 100%;
-    }
-    .contact_name_mail_inputs{
-        display: flex;
-    }
-    #pots
-    {
-        width: 100%;
-        height: 100%;
-    }
-    .seter_images div img{
-        width: 500%;
-        height: 100%;
-    }
-    .seprtr{
-        margin-left: 17.5%;
-    }
-    #input{
-        width: 455.02px;
-        height: 92px;
-    }
-    ::placeholder {
-        color: blue;
-        font-size: 2.75em;
-        font-style: italic;
-    }
-    .borders img{
-        width: 37.5%;
-    }
-    .contact_text_area textarea{
-        width: 156%;
-        height: 200%;
-    }
-    .boton_enviar{
-        position: absolute;
-        top: 130%;
-        height: 100%;
-        width: 100%;
-    }
-    .boton{
-        height: 15%;
-        width: 65%;
-        border: solid #59BEC9 2px;
-        background-color: #59BEC9;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 15.5689px;
-        box-shadow: 0 8px 32px 0 rgb(0 0 0 / 22%);
-    }
-    .boton a{
-        font-size: 300%;
-    }
-    .footer_content_page{
-        position: relative;
-        top: 3500%;
-        margin: 0;
-    }
+    #contacts{ position: static; margin-top: 0px;}
+    .footer_content_page{ position: static; margin: 1000px 0 0 0; }
     .footer_nosotros_lista,
     .footer_nosotros_lista img,
     .footer_iconos_listaN,
