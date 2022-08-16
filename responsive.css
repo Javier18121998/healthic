@@ -1,11 +1,10 @@
-@media (max-width: 350px){
+@media only screen and (max-width: 720px){
     /*Header*/
     body{
         margin: 0;
         background-color: #fffffa;
         display: grid;
-        min-width: 100%;
-        min-height: 100%;
+        max-width: 100%;
     }
     #start{
         position: relative;
@@ -594,8 +593,7 @@
         margin-top: 30px; 
     }
     .botonn a{ font-size: 42.5px; }
-    #contacts{ position: static; margin-top: 75px;}
-
+    #contacts{ position: static; margin-top: 75px; }
     .footer_content_page{ position: static; margin: 1000px 0 0 0; }
     .footer_nosotros_lista,
     .footer_nosotros_lista img,
