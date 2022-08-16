@@ -517,7 +517,7 @@
         position: static;
         display: grid;
         width: 1265px;
-        height: 3800px;
+        height: 3890px;
         margin: 60px 0 0 5%;
         border: 1px solid #000009; 
         background-color: #ffffff;
@@ -615,7 +615,7 @@
         margin-left: 67.5px;
     }
     .bottn{
-        height: 200px;
+        height: 250px;
         margin-top: 0;
         width: 100%;
     }
@@ -637,7 +637,7 @@
     .botonn a{
         font-size: 42.5px;
     }
-    #contacts{ position: static; margin-top: 0px;}
+    #contacts{ position: static; margin-top: 75px;}
     .footer_content_page{ position: static; margin: 1000px 0 0 0; }
     .footer_nosotros_lista,
     .footer_nosotros_lista img,
