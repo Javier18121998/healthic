@@ -4,7 +4,6 @@
         margin: 0;
         background-color: #fffffa;
         display: grid;
-        max-width: 100%;
     }
     #start{
         position: relative;
@@ -87,11 +86,8 @@
     .text_site_container div button a{ color: #006478; font-size: 315%; }
     .clop_content, .info_site, .title{ height: 100%; }
     .clop_content{ display: flex; justify-content: flex-end; align-items: center; position: relative; width: 100%; }
-    .contact_container,
-    .sotial_container,
-    .pages_container,
-    .sotial_media_content, .fb, .ig, .yt, .lnl, .pn,    
-    .chatear,
+    .contact_container, .sotial_container, .pages_container,
+    .sotial_media_content, .fb, .ig, .yt, .lnl, .pn, .chatear, 
     .chatear img{ z-index: 0; position: relative; width: 0;height: 0; }
     .logo_class{ z-index: 1; }
     .logo_class{ height: 250px; display: flex; justify-content: center; align-items: center; }
@@ -186,9 +182,7 @@
     .background_start{ position: absolute; top: 0; width: 110%; max-height: 100%; }
     .background_start img{ width: 110%; height: 100%; }
     .fb img, .ig img, .yt img, .lnk img, .pn img{ max-width: 0; max-height: 0; box-shadow: none; }
-    .pages_container div a,
-    .pages_container div,
-    .desplazar{ z-index: 0; width: 0; height: 0; }
+    .pages_container div a, .pages_container div, .desplazar{ z-index: 0; width: 0; height: 0; }
     .pages_container{ display: grid; grid-template-columns: repeat(0, 0fr); }
     .pages_container div a{ color: #ffffff; }
     .content{
@@ -238,24 +232,11 @@
         border-bottom-left-radius:50%;
         border: 1px solid #000009;
     }
-    .content_in_site{
-        position: relative;
-        left: 0;
-        display: flex;
-        flex-direction: row-reverse;
-        margin: 0;
-        height: 110%;
-    }
+    .content_in_site{ position: relative; left: 0; display: flex; flex-direction: row-reverse; margin: 0; height: 110%; }
     .title{ position: absolute; left: 95%; height: 100%; width: 100%; margin: 0; }
     .title h1{ position: absolute; color: #006478; font-size: 510%; top: 50%; }
     .context_content{ margin: 0; position: relative; right: 45%; }
-    .info{
-        position: relative;
-        top: 62.5%;
-        height: 100%;
-        width: 100%;
-        left: 105%;
-    }
+    .info{ position: relative; top: 62.5%; height: 100%; width: 100%; left: 105%; }
     .info p{
         margin: 0;
         color: #000000;
@@ -299,10 +280,8 @@
     .buttonn button a{ color: #006478; font-size: 325%; }
     .regresar, 
     .regresar img { z-index: 0; position: absolute; height: 0; width: 0; }
-    .fst_container div p,
-    .snd_container div p,
-    .trd_container div p,
-    .frt_container div p{ color: #ffffff; }
+    .fst_container div p, .snd_container div p,
+    .trd_container div p, .frt_container div p{ color: #ffffff; }
     #services{
         position: static;
         margin-left: 5%;
@@ -380,19 +359,10 @@
         width: 100%;
     }
     .text_container_toogle div p{ margin: 0 0 0 500px; font-size: 57.5px; color: #000009; }
-    .text_toogle{
-        height: 700px;
-        position: relative;
-        left: 5%;
-        margin: 145px 0 0 0;
-    }
+    .text_toogle{ height: 700px; position: relative; left: 5%; margin: 145px 0 0 0;}
     .text_toogle ul{ position: relative; }
     .text_container_toogle div ul{ height: 524px; width: 70%; }
-    .text_toogle ul li{
-        position: relative;
-        height: 100%;
-        font-size: 240%;
-    }
+    .text_toogle ul li{ position: relative; height: 100%; font-size: 240%; }
     .boton_ver_mas{
         position: static;
         display: flex;
@@ -404,15 +374,9 @@
         border: 1px solid #000009;
         border-radius: 30%;
     }
-    .boton_ver_mas a{
-        height: 100%;
-        width: 100%;
-        font-size: 55px;
-        color: #006478;
-    }
+    .boton_ver_mas a{ height: 100%; width: 100%; font-size: 55px; color: #006478; }
     .separator{ position: static; height: 1%; width: 100%; margin: 45px 0 0 0; color: #006478; }
-    .enfer2,
-    .enfer2 img{ width: 0; height: 0; }
+    .enfer2, .enfer2 img{ width: 0; height: 0; }
     .enfer1{
         position: static;
         display: flex;
@@ -490,9 +454,7 @@
     .tre{ width: 27.5%; height: 65%; }
     .down_image_back,
     .down_image_back img{ border-bottom-left-radius: 10%; border-bottom-right-radius: 10%; }
-    .content_site_toogle,
-    .down_image_back,
-    .down_image_back img{ margin: 0; }
+    .content_site_toogle, .down_image_back, .down_image_back img{ margin: 0; }
     #bockparts{ margin: 15px 0 15px 0;}
     #bockparts{
         position: static;
@@ -607,112 +569,31 @@
     .footer_nosotros,
     .footer_servicios, 
     .footer_title_servicios,
-    .footer_title_servicios img{
-        height: 0;
-        width: 0;
-    }
-    .footer_info_content{
-        margin-top: 5%;
-    }
-    .footer_logo{
-        height: 40%;
-        width: 100%;
-    }
-    .footer_logo img{
-        height: 90%;
-    }
-    .footer_logo_description{
-        height: 60%;
-        width: 100%;
-    }
-    .footer_logo_description p{
-        font-size: 190%;
-    }
-    .footer_contactos{
-        position: relative;
-        left: 10%;
-    }
-    .footer_title_contactos img{
-        height: 100%;
-        width: 100%;
-    }
-    .footer_ubication,
-    .footer_call,
-    .footer_mail{
-        position: relative;
-        right: 20%;
-    }
-    .footer_ubication img{
-        width: 490%;
-        height: 40%;
-    }
-    .footer_ubication_text p{
-        font-size: 135%;
-    }
-    .footer_call img{
-        position: relative;
-        width: 265%;
-        height: 100%;
-        top: 50%;
-    }
-    .footer_phone{
-        position: relative;
-        margin-top: 20%;
-    }
-    .footer_phone img{
-        position: relative;
-        width: 155%;
-        height: 105%;
-        top: 50%;
-    }
-    .footer_mail img{
-        position: relative;
-        width: 260%;
-        height: 80%;
-        top: 75%;
-    }
-    .footer_mail_text{
-        position: relative;
-    }
-    .footer_mail_text img{
-        height: 50%;
-        width: 150%;
-        margin-top: 45%;
-    }
-    .footer_ubication_text{
-        position: relative;
-        left: 5%;
-    }
-    .footer_ubication_text img{
-        width: 107%;
-        height: 35%;
-    }
-    .footer_separator{
-        position: relative;
-        top: 15%;
-    }
-    .footer_contact{
-        position: relative;
-        top: 7.5%;
-        margin-left: 5%;
-        margin-top: 3%;
-    }
-    .footer_type_info{
-        width: 60%;
-    }
-    .footer_type_info div p{
-        font-size: 205%;
-        color: #ffffff;
-    }
-    .footer_sotial_media{
-        width: 40%;
-        display: flex;
-        justify-content: space-around;
-    }
-    .footer_img img{
-        height: 225%;
-        width: 225%;
-    }    
+    .footer_title_servicios img{ height: 0; width: 0; }
+    .footer_info_content{ margin-top: 5%; }
+    .footer_logo{ height: 40%; width: 100%; }
+    .footer_logo img{ height: 90%; }
+    .footer_logo_description{ height: 60%; width: 100%; }
+    .footer_logo_description p{ font-size: 190%; }
+    .footer_contactos{ position: relative; left: 10%; }
+    .footer_title_contactos img{ height: 100%; width: 100%; }
+    .footer_ubication, .footer_call, .footer_mail{ position: relative; right: 20%; }
+    .footer_ubication img{ width: 490%; height: 40%; }
+    .footer_ubication_text p{ font-size: 135%; }
+    .footer_call img{ position: relative; width: 265%; height: 100%; top: 50%; }
+    .footer_phone{ position: relative; margin-top: 20%; }
+    .footer_phone img{ position: relative; width: 155%; height: 105%; top: 50%; }
+    .footer_mail img{ position: relative; width: 260%; height: 80%; top: 75%; }
+    .footer_mail_text{ position: relative; }
+    .footer_mail_text img{ height: 50%; width: 150%; margin-top: 45%; }
+    .footer_ubication_text{ position: relative; left: 5%; }
+    .footer_ubication_text img{ width: 107%; height: 35%; }
+    .footer_separator{ position: relative; top: 15%; }
+    .footer_contact{ position: relative; top: 7.5%; margin-left: 5%; margin-top: 3%; }
+    .footer_type_info{ width: 60%; }
+    .footer_type_info div p{ font-size: 205%; color: #ffffff; }
+    .footer_sotial_media{ width: 40%; display: flex; justify-content: space-around; }
+    .footer_img img{ height: 225%; width: 225%; }    
     .back_to{
         position: fixed;
         bottom: 18px;
@@ -725,26 +606,11 @@
         box-shadow: 1px 11px 32px 0 rgba(0, 0, 0, 0.31);
     }        
     .back_to,
-    .back_to img{
-        width: 224px;
-        height: 220px;
-        border-radius: 50%;
-    }
-    .to_visible{
-        opacity: 1;
-        transform:unset;
-    }
-    #whatsapp {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .footer_background{
-        height: 708.5px;
-    }
-    .footer_background img{
-        height: 708.5px;
-    }
+    .back_to img{ width: 224px; height: 220px; border-radius: 50%; }
+    .to_visible{ opacity: 1; transform:unset; }
+    #whatsapp { display: flex; justify-content: center; align-items: center; }
+    .footer_background{ height: 708.5px; }
+    .footer_background img{ height: 708.5px; }
     .menu{
         position: fixed;
         left: 10px;
@@ -757,9 +623,7 @@
         z-index: 8;
 
     }
-    * {
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    }
+    * { -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
     .toggle{
         position: absolute;
         width: 200px;
@@ -776,9 +640,7 @@
         transition: 1.25s;
         color: #ffffff;
     }
-    .toggle::shadow{
-        color: none;
-    }
+    .toggle::shadow{ color: none; }
     .menu li{
         position: absolute;
         list-style: none;
@@ -789,9 +651,7 @@
         transition-delay: calc(0.01s*var(--i));
         transform:  translateY(210px);
     }
-    .menu.active li{
-        transform: translateY(calc(-1350px / 6 * var(--i)));
-    }
+    .menu.active li{ transform: translateY(calc(-1350px / 6 * var(--i))); }
     .menu li a{
         width: 185px;
         height: 185px;
@@ -804,10 +664,6 @@
         box-shadow: 0 3px 5.5px rgba(0, 0, 0, 0.583);
         transition: 0.5s;
     }
-    .menu.active .toggle{
-        transform: rotate(135deg);
-    }
-    ion-icon{
-        font-size: 6.125em;
-    }
+    .menu.active .toggle{ transform: rotate(135deg); }
+    ion-icon{ font-size: 6.125em; }
 }
