@@ -556,7 +556,92 @@
     }
     .botonn a{ font-size: 42.5px; }
     #contacts{ position: static; margin-top: 75px; }
-    .footer_content_page{ position: static; margin: 1000px 0 0 0; }
+    .contact_page{ margin-left: 50%; }
+    .contact_content_page{ display: flex; flex-direction: column-reverse; }
+    .map_content{ height: 100%; width: 100%; }
+    .content_map{ margin: 0 0 0 20px; height: 100%; width: 100%; }
+    .content_map iframe{ width: 976.04px; height: 894.73px; }
+    .contact_content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 35px;
+    }
+    .contact_title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    .contact_title img{
+        width: 530.5px;
+        height: 93.5px;
+    }
+    #contact_pots{
+        width: 1000px;
+        height: 93.5px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .seter_images div img{
+        height: 70px;
+        width: 175px;
+    }
+    .contact_name_mail_inputs{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 1000px;
+        height: 93.5px;
+        margin: 40px 0 25px 0;
+    }
+    #input{
+        height: 90px;
+        width: 440px;
+    }
+    #input::placeholder{
+        font-size: 35px;
+    }
+    .borders{
+        margin-top: 35px;
+        height: 100%;
+        width: 100px;
+    }
+    .borders img{
+        height: 70px;
+        width: 175px;
+    }
+    .contact_text_area{
+        height: 100%;
+        width: 100%;
+        margin-top: 40px;
+    }
+    .contact_text_area textarea{
+        width: 1000px;
+        height: 398.39px;
+    }
+    textarea::placeholder{
+        font-size: 40px;
+    }
+    .boton_enviar{
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+    .boton{
+        height: 128px;
+        width: 330px;
+    }
+    .boton a{
+        font-size: 55px;
+    }
+    .contact_content{ margin-left: 0;}
+    .footer_content_page{ position: static; margin: 2450px 0 0 0; }
     .footer_nosotros_lista,
     .footer_nosotros_lista img,
     .footer_iconos_listaN,
