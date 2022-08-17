@@ -648,8 +648,7 @@
         z-index: 6;
         box-shadow: 1px 11px 32px 0 rgba(0, 0, 0, 0.31);
     }        
-    .back_to,
-    .back_to img{ width: 224px; height: 220px; border-radius: 50%; }
+    .back_to, .back_to img{ width: 224px; height: 220px; border-radius: 50%; }
     .to_visible{ opacity: 1; transform:unset; }
     #whatsapp { display: flex; justify-content: center; align-items: center; }
     .footer_background{ height: 708.5px; }
