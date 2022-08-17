@@ -16,13 +16,7 @@
         border-bottom: 3px solid #006478;
         top: 250px;  
     }
-    .consultorio{
-        top: 5%;
-        position: absolute;
-        width: 100%;
-        max-height: 840px;
-        margin: 0 0 0 0;
-    }
+    .consultorio{ top: 5%; position: absolute; width: 100%; max-height: 840px; margin: 0 0 0 0; }
     .consultorio img{
         position: absolute;
         width: 100%;
@@ -145,10 +139,7 @@
         height: 8.5%;
         margin-left: 37.5%;
     }
-    .hamburger.is-active .bar{
-        transform: translateX(-120px);
-        opacity: 0;
-    }
+    .hamburger.is-active .bar{ transform: translateX(-120px); opacity: 0; }
     .mobile-nav {
         position: fixed;
         top: 10%;
@@ -237,13 +228,7 @@
     .title h1{ position: absolute; color: #006478; font-size: 510%; top: 50%; }
     .context_content{ margin: 0; position: relative; right: 45%; }
     .info{ position: relative; top: 62.5%; height: 100%; width: 100%; left: 105%; }
-    .info p{
-        margin: 0;
-        color: #000000;
-        font-size: 300%;
-        height: 45%;
-        width: 150%;
-    }
+    .info p{ margin: 0; color: #000000; font-size: 300%; height: 45%; width: 150%; }
     .title_carousel{ position: absolute; top: 0; left: 100%; }
     .title_carousel p{ margin: 0; color: #006478;font-size: 350%; }
     .list_content{
@@ -270,13 +255,7 @@
     .trece img, .catorce img, .quince img{ width: 100%; height: 100%; }
     #text p{ font-size: 195%; color: #000000; }
     .buttonn{ position: absolute; top: 89%; height: 8%; width: 50%; left: 105%; }
-    .buttonn button{
-        background-color: #ffffff;
-        border: 1px solid #000000;
-        height: 110%;
-        width: 100%;
-        border-radius: 30%;
-    }
+    .buttonn button{ background-color: #ffffff; border: 1px solid #000000; height: 110%; width: 100%; border-radius: 30%; }
     .buttonn button a{ color: #006478; font-size: 325%; }
     .regresar, 
     .regresar img { z-index: 0; position: absolute; height: 0; width: 0; }
@@ -333,13 +312,7 @@
     .down_image_back{ position: relative; width: 100%; height: 55%; z-index: 2; }
     .down_image_back img{ height: 100%; width: 100%; }
     .text_site_toogle{ height: 1500px; width: 100%; }
-    .text_container_toogle{
-        height: 1500px;
-        width: 100%;
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-    }
+    .text_container_toogle{ height: 1500px; width: 100%; position: absolute; display: flex; flex-direction: column; }
     .head_buttons{
         position: static;
         display: flex;
@@ -432,13 +405,7 @@
         z-index: 6;
     }
     .subtitle{ position: static; width: 100%; height: 25%; z-index: 6; }
-    .crap_toogle div p{
-        position: static;
-        margin: 15px 0 0 0;
-        font-size: 65px;
-        color: #ffffff;
-        z-index: 6;
-    }
+    .crap_toogle div p{ position: static; margin: 15px 0 0 0; font-size: 65px; color: #ffffff; z-index: 6; }
     .image_toogle{
         position: static;
         display: flex;
@@ -456,13 +423,7 @@
     .down_image_back img{ border-bottom-left-radius: 10%; border-bottom-right-radius: 10%; }
     .content_site_toogle, .down_image_back, .down_image_back img{ margin: 0; }
     #bockparts{ margin: 15px 0 15px 0;}
-    #bockparts{
-        position: static;
-        width: 1265px;
-        height: 1150px;
-        margin: 650px 0 0 5%;
-        background-color: #ffffff;
-    }
+    #bockparts{ position: static; width: 1265px; height: 1150px; margin: 650px 0 0 5%; background-color: #ffffff; }
     #campanas{
         background-color: #ffffff;
         margin: 0;
@@ -487,13 +448,7 @@
     .news{ height: 100%; margin: 0 35px 0 35px; }
     .title_page_news{ display: flex; justify-content: center; align-items: center; height: 300px; }
     .title_page_news img{ height: 200px; margin-left: 50px; }
-    .containt_page_news{
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        height: 3300px;
-        margin: 0;
-    }
+    .containt_page_news{ display: flex; flex-direction: column; justify-content: flex-start; height: 3300px; margin: 0; }
     .containt_topp_news{
         display: flex;
         justify-content: center;
@@ -594,13 +549,7 @@
     .contact_text_area{ height: 100%; width: 100%; margin-top: 40px; }
     .contact_text_area textarea{ width: 1000px; height: 398.39px; }
     textarea::placeholder{ font-size: 40px; }
-    .boton_enviar{
-        display: flex; 
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-        width: 100%;
-    }
+    .boton_enviar{ display: flex;  justify-content: center; align-items: center; height: 100%; width: 100%; }
     .boton{ height: 128px; width: 330px; }
     .boton a{ font-size: 55px; }
     /**/
