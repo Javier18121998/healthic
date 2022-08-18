@@ -983,6 +983,38 @@ h4{
     opacity: 1;
     transform: translateX(0);
 }
+ion-icon{ font-size: 0; }
+.menu li{
+    width: 0;
+    height: 0;
+}
+.toggle{ 
+    width: 0;
+    height: 0;
+}
+.menu{
+    height: 0;
+    width: 0;
+}
+.menu li a{
+    width: 0;
+    height: 0;
+}
+.menu li::marker{
+    width: 0;
+    height: 0;
+    margin: 0;
+}
+li.youtube::marker
+li.facebook::marker,
+li.instagram::marker,
+li.linkedin::marker,
+li.telefono::marker,
+li.youtube::marker
+{
+    width: 0;
+    height: 0;
+}
 @media (min-width: 720px){
     .menu,
     .menu div,
