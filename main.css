@@ -450,11 +450,25 @@ body{
     flex-direction: column;
     position: static;
     z-index: 0;
-    max-width: 100%;
+    width: 100%;
+    height: 100%;
 }
 .content_site_toogle{
     display: flex;
-    margin: 45px 0 100px 125px;
+    height: 51.25%;
+    width: 100%;
+}
+.text_site_toogle{
+    width: 100%;
+    height: 100%;
+}
+.text_container_toogle{
+    width: 47.25%;
+    height: 100%;
+    margin-left: 12.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 .boton_ver_mas{
     height: 55px;
@@ -572,27 +586,29 @@ body{
     margin-left: 20.125px;
     margin-top: 45px;
 }
-.title_name_toogle,
-.title_name_toogle h1{
-    height: 149.04px;
-    width: 426.56px;
-    color: #006478;
-    font-size: 45px;
+.title_name_toogle{
+    width: 100%;
+    height: 10%;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    margin-left: 60px;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1.5% 0 4% 0;
 }
 .title_name_toogle h1{
     font-family: 'Rubik', sans-serif;
-    font-size: 46px;
+    font-size: 7.5vh;
+    color: #006478;
+    margin-left: 12.5%;
+    width: 35%;
 }
 .site_name_toogle{
-    margin-left: 125px;
-    margin-bottom: 17.5px;
+    height: 2.5%;
+    width: 100%;
 }
 .site_name_toogle p{
     color: #59BEC9;
+    font-size: 2.75vh;
+    margin-left: 12.5%;
 }
 .enfer2,
 .enfer2 img{
@@ -612,13 +628,16 @@ body{
     margin-left: 330px;
     margin-top: 185px;
 }
-
+.down_image_back{
+    height: 36.25%;
+    width: 100%;
+    margin-top: 17.5%;
+}
 .down_image_back img{
     background-color: #01061a;
-    height: 410px;
-    width: 1349px;
+    height: 100%;
+    width: 100%;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.363);
-    margin-top: 100px;
 }
 .crap_toogle{
     position: absolute;
@@ -633,11 +652,6 @@ body{
 .crap_toogle div p{
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
-}
-.down_image_back{
-    height: 410px;
-    width: 1349px;
-    margin-top: 92.5px;
 }
 .crap_toogle div{
     display: flex;
