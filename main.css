@@ -392,12 +392,14 @@ body{
 .bar_toogle{
     background-color: #F8F8F8;
     display: flex;
-    height: 226px;
-    width: 1166px;
+    height: 33.5%;
+    width: 86.44%;
     justify-content: space-between;
     align-items: center;
-    margin: 975px 100px 0 100px;
+    margin: 0 6.78% 0 6.78%;
     position: absolute;
+    top: 0;
+    margin-top: 192.5%;
     z-index: 3;
     box-shadow: 2px 2.5px 8px 9px rgb(0 0 0 / 18%);
 }
@@ -437,21 +439,27 @@ body{
 }
 #toogle div h1{
     color: #006478;
+    font-size: 5.1vh;
 }
 #toogle div p{
     color: #59BEC9;
     display: flex;
     align-self: flex-end;
     margin: 0 0 45px 0;
+    font-size: 2.4vh;
+}
+#services{
+    width: 100%;
+    margin-bottom: 5.5%;
 }
 .site_toogle{
-    margin-top: 50px;
+    position: static;
     display: flex;
     flex-direction: column;
-    position: static;
-    z-index: 0;
     width: 100%;
     height: 100%;
+    margin-top: 50px;
+    z-index: 0;
 }
 .content_site_toogle{
     display: flex;
@@ -471,8 +479,8 @@ body{
     justify-content: flex-start;
 }
 .boton_ver_mas{
-    height: 55px;
-    width: 186px;
+    height: 8.845%;
+    width: 29.259%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -487,27 +495,29 @@ body{
 }
 .boton_ver_mas a{
     color:#006478;
-    height: 55px;
-    width: 186px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 100%;
+    width: 100%;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
-    font-size: 14px;
+    font-size: 2.235vh;
 }
 .head_buttons{
     display: flex;
+    height: 9.8%;
 }
-.head_buttons div,
-.head_buttons div a{ 
-    height: 55px;
-    width: 186px;
+
+.head_buttons div{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 94%;
+    width: 29.176%;
+}
+
+.head_buttons div a{ 
     text-decoration: none;
     font-family: 'Rubik', sans-serif;
+    font-size: 2.65vh;
 }
 .head_buttons.sd_boton,
 .sd_boton{
@@ -534,57 +544,49 @@ body{
 }
 .separator{
     border-top: 1px solid #59bec9;
-    width: 450px;
+    width: 71%;
+    height: 1%;
     margin-left: 186px;
 }
-.text_container_toogle div ul{
-    display: flex;
-    flex-direction: column;
-    width: 452.13px;
-    height: 214px;
-    justify-content: center;
-}
-.text_container_toogle div ul li{
-    color: #808080;
-    margin-bottom: 33px;
-}
 .text_toogle{
-    margin: 45px 0 50px 0;
+    margin: 5% 0 5% 0;
+    height: 50%;
+    width: 100%;
 }
 .text_toogle ul{
     list-style-image: url('ImageContainer/rectangulo.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .text_toogle ul li{
     font-family: 'Rubik', sans-serif;
-    font-size: small;
+    font-size: 2.35vh;
+    color: #808080;
+    margin-bottom: 6.25%;
 }
+
+.text_toogle ul li::marker{
+    font-size: 10%;
+}
+
 .site_down_toogle,
 .site_down_toogle img{
     height: 418.67px ;
     width: 1349px;
 }
-.text_container_toogle div p{
-    font-size: 20.5px;
-    color: #288992;
-}
-.problematica p{
-    display: flex;
-    height: 28px;
-    width: 140px;
-    align-items: center;
-    justify-content: center;
-    margin: 20px 0 0 10px;
-    font-family: 'Poppins', sans-serif;
-}
 .problematica{
     display: flex;
-    height: 28px;
-    width: 140px;
+    height: 10%;
+    width: 100%;
     align-items: center;
-    justify-content: center;
-    margin: 20px 0 0 10px;
-    margin-left: 20.125px;
-    margin-top: 45px;
+    justify-content: flex-start;
+    margin: 6.25% 0 0 4%;
+}
+.problematica p{
+    font-size: 3.25vh;
+    font-family: 'Poppins', sans-serif;
+    color: #288992;
 }
 .title_name_toogle{
     width: 100%;
@@ -610,28 +612,29 @@ body{
     font-size: 2.75vh;
     margin-left: 12.5%;
 }
-.enfer2,
-.enfer2 img{
-    height: 475px;
-    width: 299px;
-    margin-left: 320px;
-    margin-top: 154px;
+.enfer2{
     position: absolute;
-    z-index: 1;
-}
-.enfer1,
-.enfer1 img{
-    height:759.09px ;
-    width: 530.6px;
-    position: absolute;
+    top: 0;
+    margin-top: 140%;
+    left: 53%;
+    width: 100%;
+    height: 100%;
     z-index: 2;
-    margin-left: 330px;
-    margin-top: 185px;
+}
+.enfer2 img{
+    width: 22.15%;
+    height: 76.65%;
+}
+.enfer1{
+    position: absolute;
+    top: 312.5%;
+    left: 53%;
+    z-index: 2;
 }
 .down_image_back{
     height: 36.25%;
     width: 100%;
-    margin-top: 17.5%;
+    margin-top: 14.5%;
 }
 .down_image_back img{
     background-color: #01061a;
@@ -641,32 +644,45 @@ body{
 }
 .crap_toogle{
     position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 455%;
     z-index: 4;
-    margin-top: 1262.5px;
+    width: 55%;
+    height: 45%;
+    left: 22.5%;
 }
-.crap_toogle div p{
-    margin-left: 330px;
-    margin-bottom: 45px;
+.subtitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 25%;
+}
+.subtitle p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.85vh;
     color: #ffffff;
 }
-.crap_toogle div p{
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;
-}
-.crap_toogle div{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
 .image_toogle{
-    margin-left: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 75%;
 }
 .un{
-    margin-right: 130px;
-    margin-left: 300px;
+    width: 30.68%;
+    height: 36.71%;
 }
 .do{
-    margin-right: 145px;
+    width: 7.429%;
+    height: 43.24%;
+    margin-right: 5.25%;
+}
+.tre{
+    height: 40.92%;
+    width: 23.82%;
 }
 .but{
     background-color: #59BEC9;
@@ -976,23 +992,35 @@ h4{
 .footer_img img{
     cursor: pointer;
 }
-#campanas{
-    margin-top: 1650px;
-    margin-bottom: 100px;
+#bockparts{
+    margin-bottom: 25%;
+    height: 100%;
+    width: 100%;
 }
-.title_bookpart h1{
-    color: #59BEC9;
+#campanas{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 .title_bookpart{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: 10%;
+}
+.title_bookpart h1{
+    color: #59BEC9;
+    font-size: 5.5vh;
 }
 .carrousel{
-    margin-top: 80px;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    height: 90%;
+    width: 100%;
+    margin-top: 80px;
 }
 .carrousel div{
     margin: 0 30px 0 30px;
@@ -1001,12 +1029,14 @@ h4{
     justify-content: space-evenly;
 
 }
-.set_carrousel img{
-    display: flex;
-    align-items: center;
-    margin-left: 10px;
-    margin-right: 10px;
+#reverse, #continue{ height: 100%; width: 1.12%;}
+#reverse img, #continue img{ height: 3.21%; width: 100%; }
+.set_carrousel{
+    height: 100%;
+    width: 72.94%;
 }
+.carousel_uno, .carousel_tres{ height: 38.0060%; width: 27.541%;}
+.carousel_dos{ height: 54.867%; width: 38.822%; }
 .regresar,
 .regresar img{
     width: 40px;
