@@ -2,6 +2,10 @@ body{
     margin: 0;
     overflow-x: hidden;
     display: grid;
+    max-height: 100%;
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
 }
 #site_content{
     position: absolute;
@@ -726,23 +730,64 @@ body{
 .contact_page{
     display: flex;
     flex-direction: column;
-    position: absolute;
     z-index: 1;
-    margin-top: 10px;
 }
-.contact_content_page,
-.contact_content_page #contact_pots{
+.contact_content_page{
     display: flex;
     flex-direction: row;
+    width: 100%;
+    height: 100%;
 }
 .contact_content{
     display: flex;
     flex-direction: column;
-    margin-left: 75px;
+    margin-left: 10%;
+    width: 50%;
+    height: 100%;
+}
+.contact_title{
+    width: 100%;
+    height: 12.5%;
+}
+#contact_pots{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10%;
+    margin-top: 22px;
+}
+.contact_name_mail_inputs{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 15%;
+}
+.seter_images{
+    width: 100%;
+    height: 10%;
+}
+.contact_text_area{
+    height: 195.4px;
+    width: 98.25%;
+    border: 1.5px solid rgba(0, 0, 0, 0.138);
+}
+.contact_text_area textarea{
+    height: 195.4px;
+    width: 589.6px;
+    border: 1.5px solid rgba(0, 0, 0, 0.138);
+    resize: none;  
+    outline: none;
+}
+.boton_enviar{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
 }
 .boton{
-    height: 55px;
-    width: 186px;
+    height: 79.131%;
+    width: 31.2989%;
     border: solid #59BEC9 2px;
     background-color: #59BEC9;
     display: flex;
@@ -754,6 +799,8 @@ body{
 .boton a{
     height: 55px;
     width: 186px;
+    max-width: 100%;
+    max-width: 100%;
     border: solid #59BEC9 2px;
     background-color: #59BEC9;
     text-decoration: none;
@@ -762,14 +809,22 @@ body{
     justify-content: center;
     align-items: center;
 }
-.contact_text_area,
-.contact_text_area textarea{
-    height: 195.4px;
-    width: 589.6px;
-    box-shadow: 0 7px 8px 0 rgb(0 0 0 / 18%);
-    border: 1.5px solid rgba(0, 0, 0, 0.138);
-    resize: none;  
-    outline: none;
+.map_content{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+.content_map{
+    height: 80%;
+    width: 87%;
+    margin-top: 11%;
+    box-shadow: 0 5px 4px 2px rgba(0, 0, 0, 0.18);
+}
+.content_map iframe{
+    width: 100%;
+    max-height: 100%;
 }
 #input{
     height: 43.5px;
@@ -782,43 +837,29 @@ body{
 #pots{
     margin-right: 234px;
 }
-.borders{
-    margin-top: 22px;
-}
-.contact_title{
-    margin: 25.5px 0 22.5px 0;
-}
-
 .seter_images div img{
     height: 20px;
     width: 70px;
 }
-
-.content_map{
-    margin: 110px 0 0 19px;
-    height: 410.73px;
-    width: 526.04px;
-    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.18);
-}
 .footer_content_page{
     display: flex;
     flex-direction: column;
-    height: 450.31px;
-    width: 1348;
-    margin-top: 760px;
-}
-.footer_background img{
-    height: 450.31px;
-    width: 1348px;
-    position: absolute;
-    opacity: 0.971;
+    height: 10%;
+    width: 100%;
+    margin-top: 10%;
 }
 .footer_background{
-    height: 450.31px;
-    width: 1348px;
+    height: 72%;
+    width: 100%;
     margin-top: 0px;
     position: absolute;
     background-color: rgb(6, 3, 26);
+}
+.footer_background img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    opacity: 0.971;
 }
 .footer_separator{
     border-top: 1.9489px solid #ffffff;
