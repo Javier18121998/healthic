@@ -842,14 +842,16 @@ body{
     width: 70px;
 }
 .footer_content_page{
+    position: static;
+    bottom: 0;
     display: flex;
     flex-direction: column;
-    height: 10%;
+    height: 75%;
     width: 100%;
-    margin-top: 10%;
+    margin-top: 9%;
 }
 .footer_background{
-    height: 72%;
+    height: 68%;
     width: 100%;
     margin-top: 0px;
     position: absolute;
@@ -861,42 +863,77 @@ body{
     position: absolute;
     opacity: 0.971;
 }
+.footer_info_content{
+    height: 100%;
+    width: 87.7%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 6%;
+    margin-top: 2.3%;
+}
+.footer_info_group{
+    height: 75%;
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.footer_logo{
+    margin-bottom: 5%;
+    width: 100%;
+    height: 20%;
+}
+.footer_logo img{
+    height: 85%;
+    width: 50%;
+}
+.footer_logo_description p{
+    color: #ffffff;
+    font-size: 2.35vh;
+}
+.footer_nosotros{
+    width: 10.0587%;
+    height: 92.2323%;
+    margin-top: 4%;
+}
+.footer_servicios{
+    width: 7.9455%;
+    height: 41.2377%;
+    margin-top: 4%;
+}
+.footer_contactos{
+    width: 17.5748%;
+    height: 91.2377%;
+    margin-top: 4%;
+}
 .footer_separator{
     border-top: 1.9489px solid #ffffff;
-    width: 1185px;
-    margin-left: 80px;
+    height: 1.5%;
+    width: 87.7%;
+    margin-top: 5%;
+    margin-left: 6%;
+    z-index: 5;
+}
+.footer_contact{
+    width: 87.7%;
+    height: 100%;
+    margin-left: 6%;
+    justify-content: space-between;
+    margin-top: 1%;
+    display: flex;
+    z-index: 5;
+    margin-right: 85px;
 }
 .footer_type_info,
-.footer_contact,
 .footer_sotial_media,
 .footer_ft,
 .footer_sd,
 .footer_tr{
     display: flex;
 }
-.footer_info_content{
-    height: 1185px;
-    width: 990px;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 90px;
-}
-.footer_logo_description p,
 .footer_type_info div p,
 .footer_ubication_text p{
     color: #ffffff;
-}
-.footer_info_content,
-.footer_contact{
-    margin-left: 80px;
-}
-.footer_logo{
-    margin-bottom: 40px;
-}
-.footer_contact{
-    justify-content: space-between;
-    margin-top: 20px;
-    margin-right: 85px;
 }
 .footer_sotial_media{
     align-items: center;
@@ -920,12 +957,6 @@ body{
     margin-top: 30px;
     margin-left: 3px;
 }
-.footer_nosotros,
-.footer_servicios,
-.footer_contactos{
-    margin-top: 20px;
-}
-.footer_logo_description p,
 .footer_ubication_text p{
     font-size: small;
 }
@@ -952,9 +983,7 @@ body{
     width: 312.55px;
     justify-content: space-between;
 }
-.footer_info_content,
-.footer_separator,
-.footer_contact{
+.footer_info_content{
     z-index: 5;
 }
 .footer_background,
@@ -1167,40 +1196,7 @@ body{
     opacity: 1;
     transform: translateX(0);
 }
-ion-icon{ font-size: 0; }
-.menu li{
-    width: 0;
-    height: 0;        
-    list-style: none;
-}
-.toggle{ 
-    width: 0;
-    height: 0;
-}
-.menu{
-    height: 0;
-    width: 0;
-    z-index: 0;
-}
-.menu li a{
-    width: 0;
-    height: 0;
-}
-.menu li::marker{
-    width: 0;
-    height: 0;
-    margin: 0;        list-style: none;
-}
-li.youtube::marker
-li.facebook::marker,
-li.instagram::marker,
-li.linkedin::marker,
-li.telefono::marker,
-li.youtube::marker
-{
-    width: 0;
-    height: 0;
-}
+
 @media (min-width: 720px){
     .menu,
     .menu div,
@@ -1211,4 +1207,39 @@ li.youtube::marker
         height: 0px;
         z-index: 0;
     }
+    .menu li{
+        width: 0;
+        height: 0;        
+        list-style: none;
+    }
+    .toggle{ 
+        width: 0;
+        height: 0;
+    }
+    .menu{
+        height: 0;
+        width: 0;
+        z-index: 0;
+    }
+    .menu li a{
+        width: 0;
+        height: 0;
+    }
+    .menu li::marker{
+        width: 0;
+        height: 0;
+        margin: 0;        
+        list-style: none;
+    }
+    li.youtube::marker
+    li.facebook::marker,
+    li.instagram::marker,
+    li.linkedin::marker,
+    li.telefono::marker,
+    li.youtube::marker
+    {
+        width: 0;
+        height: 0;
+    }
+    ion-icon{ font-size: 0; }
 }
